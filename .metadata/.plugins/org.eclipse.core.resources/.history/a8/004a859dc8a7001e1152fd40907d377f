@@ -1,0 +1,7 @@
+package com.src.uber;
+
+import com.src.uber.trip.TripMetaData;
+
+public abstract class DriverMatchingStrategy {
+    public abstract Driver matchDriver(TripMetaData pTripMetaData);
+}

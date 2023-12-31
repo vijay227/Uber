@@ -1,0 +1,3 @@
+public abstract class PricingStrategy {
+    public abstract double calculatePrice(TripMetaData pTripMetaData);
+}

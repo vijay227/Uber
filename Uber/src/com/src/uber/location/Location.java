@@ -1,0 +1,21 @@
+package com.src.uber.location;
+public class Location {
+    public double latitude;
+    public double longitude;
+
+    public Location(double pLatitude, double pLongitude) {
+        this.latitude = pLatitude;
+        this.longitude = pLongitude;
+    }
+
+	public double getLatitude() {
+		// TODO Auto-generated method stub
+		return this.latitude;
+	}
+
+	public double getLongitude() {
+		// TODO Auto-generated method stub
+		return longitude;
+	}
+}
+

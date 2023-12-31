@@ -1,0 +1,11 @@
+package com.src.uber.pricingStrategy;
+
+import com.src.uber.trip.TripMetaData;
+
+public class DefaultPricingStrategy extends PricingStrategy {
+    @Override
+    public double calculatePrice(TripMetaData pTripMetaData) {
+        System.out.println("Based on default strategy, price is 100");
+        return 100.0;
+    }
+}

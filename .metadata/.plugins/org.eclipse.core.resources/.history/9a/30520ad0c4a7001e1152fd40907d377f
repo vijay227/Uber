@@ -1,0 +1,16 @@
+package com.src.uber;
+public class Location {
+    public double latitude;
+    public double longitude;
+
+    public Location(double pLatitude, double pLongitude) {
+        this.latitude = pLatitude;
+        this.longitude = pLongitude;
+    }
+
+	public String getLatitude() {
+		// TODO Auto-generated method stub
+		return latitude;
+	}
+}
+

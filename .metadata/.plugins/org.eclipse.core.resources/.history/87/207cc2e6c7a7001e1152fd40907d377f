@@ -1,0 +1,26 @@
+package com.src.uber;
+public class TripMetaData {
+    private Location srcLoc;
+    private Location dstLoc;
+    private Util.RATING riderRating;
+    private Util.RATING driverRating;
+
+    public TripMetaData(Location pSrcLoc, Location pDstLoc, Util.RATING pRiderRating) {
+        srcLoc = pSrcLoc;
+        dstLoc = pDstLoc;
+        riderRating = pRiderRating;
+        driverRating = Util.RATING.UNASSIGNED;
+    }
+
+    public Util.RATING getRiderRating() {
+        return riderRating;
+    }
+
+    public Util.RATING getDriverRating() {
+        return driverRating;
+    }
+
+    public void setDriverRating(Util.RATING pDriverRating) {
+        driverRating = pDriverRating;
+    }
+}
