@@ -14,7 +14,7 @@ import com.src.uber.util.Util;
 public class Main {
     public static void main(String[] args) {
         // Creating Riders and Drivers
-        Rider vijayRider = new Rider("Vijay", Util.RATING.FIVE_STARS);
+        Rider vijayRider = new Rider("Vijay", Util.RATING.TWO_STARS);
         Rider galandeRider = new Rider("Galande", Util.RATING.FIVE_STARS);
         RiderMgr riderMgr = RiderMgr.getRiderMgr();
         riderMgr.addRider("Vijay", vijayRider);
